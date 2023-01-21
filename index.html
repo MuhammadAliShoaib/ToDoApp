@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <h1>Todo list</h1>
+    <div class="main">
+        <div class="user-content">
+            <input type="text" class="inp" id="user-Inp" placeholder="Enter your item">
+            <div class="div_btn">
+                <button class="btn" onclick="add()"><i class="fas fa-plus"></i> Add</button>
+                <button class="btn" onclick="delet_All()"><i class="fal fa-trash-alt"></i> Delete All</button>
+            </div>
+            <div>
+                <table id="content" >
+
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="module" src="script.js"></script>
+
+</html>
